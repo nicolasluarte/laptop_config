@@ -33,3 +33,10 @@ pip3 install --user neovim-remote
 pip3 install --user pynvim
 
 ```
+
+## alacritty
+Just do a symlink of this into ~/.config/alacritty/
+```
+sudo pacman -S alacritty
+git clone https://github.com/nicolasluarte/alacritty_config
+```
