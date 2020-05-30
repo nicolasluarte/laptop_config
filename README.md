@@ -51,3 +51,21 @@ Just do a symlink of this into ~/.config/alacritty/
 sudo pacman -S alacritty
 git clone https://github.com/nicolasluarte/alacritty_config
 ```
+
+## ZSH
+```
+sudo pacman -S zsh
+yay -S zsh-autosuggestions
+```
+Install oh-my-zsh
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+Clone repo to .oh-my-zsh/custom/plugins
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions
+```
+Add the plugin to the list of plugins inside .zshrc
+```
+plugins=(zsh-autosuggestions)
+```
