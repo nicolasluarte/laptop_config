@@ -15,12 +15,23 @@ yay -S pandoc
 ```
 sudo pacman -S python
 sudo pacman -S python-pip
+sudo pacman -S ipython
 ```
 
 ## R
 ```
 sudo pacman -S r
 sudo pacman -S gcc-fortran
+```
+Add this to Rprofile
+```
+touch .Rprofile
+## Set CRAN mirror:
+local({
+  r <- getOption("repos")
+  r["CRAN"] <- "https://cloud.r-project.org/"
+  options(repos = r)
+})
 ```
 
 ## NeoVim
