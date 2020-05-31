@@ -69,3 +69,8 @@ Add the plugin to the list of plugins inside .zshrc
 ```
 plugins=(zsh-autosuggestions)
 ```
+
+## Screenshot
+```
+yay -S flameshot
+```
