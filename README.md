@@ -79,3 +79,8 @@ yay -S flameshot
 ```
 sudo pacman -S ffmpeg
 ```
+
+## Music player
+```
+sudo pacman -S cmus
+```
