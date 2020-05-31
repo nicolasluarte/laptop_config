@@ -74,3 +74,8 @@ plugins=(zsh-autosuggestions)
 ```
 yay -S flameshot
 ```
+
+## FFMPEG
+```
+sudo pacman -S ffmpeg
+```
